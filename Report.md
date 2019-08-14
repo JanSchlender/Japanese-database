@@ -31,7 +31,7 @@ The objective of this project was the development of a PBPK population model for
 
 First, a systemic literature search was carried out to collect relevant anatomical and physiological study data required for developing of a Japanese PBPK database. Literature data were analyzed if they met specific inclusion criteria. For each parameter, a batch of mathematical functions was subsequently fitted to the data. In a final step, the best performing functions were selected and implemented in a PBPK database for Japanese. Figure 4‑1 schematically illustrates this workflow.
 
-![Figure_4_1](https://github.com/JanSchlender/Japanese-database/Figures/Figure_4_1.png)
+![Figure_4_1](https://github.com/JanSchlender/Japanese-database/tree/master/Figures/Figure_4_1.png)
 
 **Figure 4-1** Workflow of this study. 
 
@@ -49,11 +49,11 @@ Studies identified in the literature search were included in a preliminary study
 
 Data extracted from the final study set were compiled in a Microsoft Excel 2010® spreadsheet and prepared for further analyses. An in-house developed tool of Bayer AG was used to extract data from plots and convert these into numerical values. For the sake of simplicity, the density of all organs was assumed to be 1 kg/dm³, unless weight and volume deviated from each other by more than 5%. In case the exact number of studied individuals was not reported it was arbitrarily set to one. 
 
-In most cases values were reported as a geometric mean  (![geomean](https://github.com/JanSchlender/Japanese-database/Figures/geomean.png)). In cases where the reported study mean and standard deviation define a lognormal distribution, the associated geometric mean value ![geomean](https://github.com/JanSchlender/Japanese-database/Figures/geomean.png) was calculated to obtain comparable parameters, as follows:
+In most cases values were reported as a geometric mean  (![geomean](https://github.com/JanSchlender/Japanese-database/tree/master/Figures/geomean.png)). In cases where the reported study mean and standard deviation define a lognormal distribution, the associated geometric mean value ![geomean](https://github.com/JanSchlender/Japanese-database/tree/master/Figures/geomean.png) was calculated to obtain comparable parameters, as follows:
 
 
 
-(Eq. 1) ![equation_1](https://github.com/JanSchlender/Japanese-database/Figures/equation_1.png)  
+(Eq. 1) ![equation_1](https://github.com/JanSchlender/Japanese-database/tree/master/Figures/equation_1.png)  
 
 
 
@@ -106,12 +106,12 @@ Using the software Origin® (version X, OriginLab Corporation, Northamption, USA
 
 | Function name                             |                        Function form                         | No. of fitted coefficients* |
 | :---------------------------------------- | :----------------------------------------------------------: | :-------------------------: |
-| Linear function                           | ![img](https://github.com/JanSchlender/Japanese-database/Figures/linear_function.png) |              1              |
-| Allometric function                       | ![img](https://github.com/JanSchlender/Japanese-database/Figures/allometric_function.png) |              1              |
-| Asymptotic function                       | ![img](https://github.com/JanSchlender/Japanese-database/Figures/asymptotic_function.png) |              2              |
-| Hill function                             | ![img](https://github.com/JanSchlender/Japanese-database/Figures/Hill_function.png) |              4              |
-| Logistic function                         | ![img](https://github.com/JanSchlender/Japanese-database/Figures/logistic_function.png) |              4              |
-| 3<sup>th</sup> degree polynomial function | ![img](https://github.com/JanSchlender/Japanese-database/Figures/3rd_degree_poly_function.png) |              3              |
+| Linear function                           | ![img](https://github.com/JanSchlender/Japanese-database/tree/master/Figures/linear_function.png) |              1              |
+| Allometric function                       | ![img](https://github.com/JanSchlender/Japanese-database/tree/master/Figures/allometric_function.png) |              1              |
+| Asymptotic function                       | ![img](https://github.com/JanSchlender/Japanese-database/tree/master/Figures/asymptotic_function.png) |              2              |
+| Hill function                             | ![img](https://github.com/JanSchlender/Japanese-database/tree/master/Figures/Hill_function.png) |              4              |
+| Logistic function                         | ![img](https://github.com/JanSchlender/Japanese-database/tree/master/Figures/logistic_function.png) |              4              |
+| 3<sup>th</sup> degree polynomial function | ![img](https://github.com/JanSchlender/Japanese-database/tree/master/Figures/3rd_degree_poly_function.png) |              3              |
 
 *only part of the function has been used
 
@@ -143,9 +143,9 @@ Japanese adult individuals are on average slightly smaller and have approximatel
 
 
 
-![Figure_5_1_upper](https://github.com/JanSchlender/Japanese-database/Figures/Figure_5_1_upper.png)
+![Figure_5_1_upper](https://github.com/JanSchlender/Japanese-database/tree/master/Figures/Figure_5_1_upper.png)
 
-![Figure_5_1_lower](https://github.com/JanSchlender/Japanese-database/Figures/Figure_5_1_lower.png)
+![Figure_5_1_lower](https://github.com/JanSchlender/Japanese-database/tree/master/Figures/Figure_5_1_lower.png)
 
 **Figure 5‑1** Comparison of growth charts between Caucasian and Japanese children. Boys are visualized in the upper panel, while girls are shown in the lower panel. The figures on the left side range from birth to the age of 3 years, while the right side shows the maturation from 2 to 20 years.
 
@@ -155,9 +155,9 @@ In males, accelerated growth of organs during the puberty was observed and nearl
 
 The anatomical and physiological characteristics are opposed to mean Caucasian individuals of the same age in a graphical visualization in **Figure 5‑2**.
 
-![Figure_5_2_male](https://github.com/JanSchlender/Japanese-database/Figures/Figure_5_2_male.png)
+![Figure_5_2_male](https://github.com/JanSchlender/Japanese-database/tree/master/Figures/Figure_5_2_male.png)
 
-![Figure_5_2_female](https://github.com/JanSchlender/Japanese-database/Figures/Figure_5_2_female.png)
+![Figure_5_2_female](https://github.com/JanSchlender/Japanese-database/tree/master/Figures/Figure_5_2_female.png)
 
 **Figure 5‑2** Comparison of body composition between Caucasian and Japanese subjects between birth and adulthood. Males are visualized in the upper panel, while females are shown in the lower panel.
 
